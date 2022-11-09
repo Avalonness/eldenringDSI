@@ -1,0 +1,17 @@
+<div class="boss_container">
+
+  <div *ngFor="let boss of bossList" class="boss_card">
+    <h6>{{boss.name | uppercase}}</h6>
+    <img src="{{boss.image}}" alt="{{boss.name}}" />
+    <div class="boss_card__description">
+      <ul>
+        <li>{{boss.description}}</li>
+        <br>
+        <li>{{"Localisation: " + boss.location}}</li>
+        <br>
+        <li>{{"Hp: " + boss.healthPoints}}</li>
+      </ul>
+    </div>
+  </div>
+
+</div>

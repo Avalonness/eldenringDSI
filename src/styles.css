@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+/* -------------------------------------
+              IMPORT
+------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* -------------------------------------
+              MINIRESET CSS
+------------------------------------- */
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+/* -------------------------------------
+              VARIABLES
+------------------------------------- */
+  body {
+    --main-fontspecial-color: #D58014;
+    --main-bg-color: black;
+    --main-font-color: white;
+
+  }
+/* -------------------------------------
+              GENERAL CSS
+------------------------------------- */
+
+a {
+  text-decoration: none;
+  color: var(--main-fontspecial-color);
+}
+
+body {
+  background: var(--main-bg-color);
+  color: var(--main-fontspecial-color);
+}
+
+body p {
+  color: var(--main-font-color);
+  font-size: 16px;
+  font-family: 'Crimson Text', serif;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 35px;
+  color: var(--main-fontspecial-color);
+}
+
+h3{
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+  text-decoration: underline;
+}
+

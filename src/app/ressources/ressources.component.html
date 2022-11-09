@@ -1,0 +1,10 @@
+<div class="ressource_container">
+  <div *ngFor="let item of listRessources" class="card_content">
+    <a [routerLink]="item.name">
+      <div class="">
+        <h3>{{item.name | uppercase}}</h3>
+        <img src="{{item.img}}" alt="{{item.name}}">
+      </div>
+    </a>
+  </div>
+</div>
